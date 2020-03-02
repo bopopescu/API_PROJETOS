@@ -10,7 +10,7 @@ sys.path.append('/var/www/api/api_projetos_rest')
 # adjust the Python version in the line below as needed 
 sys.path.append('/var/www/api/venv/lib/python3.7/site-packages') 
  
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings") 
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "api_projetos_rest.settings") 
  
 try: 
     application = get_wsgi_application() 
